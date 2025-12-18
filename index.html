@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">☕ Cozy Cafe</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#order">Order</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+    <h1>Welcome to Cozy Cafe</h1>
+    <p>Fresh Coffee • Sweet Treats • Warm Vibes</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+</section>
+
+<!-- Menu -->
+<section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Coffee">
+            <h3>Cappuccino</h3>
+            <p>$4.50</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Latte">
+            <h3>Latte</h3>
+            <p>$4.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://www.mybakingaddiction.com/wp-content/uploads/2011/10/lr-0939.jpg" alt="Cake">
+            <h3>Chocolate Cake</h3>
+            <p>$5.00</p>
+        </div>
+
+        <div class="card2">
+            <img src="https://tse3.mm.bing.net/th/id/OIP._m5qzNGIAtnbmR5vpmlB6gHaJB?cb=ucfimg2&ucfimg=1&w=760&h=926&rs=1&pid=ImgDetMain&o=7&rm=3" alt="hot Chocolate">
+            <h3>hot Chocolate</h3>
+            <p>$6.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://sweetandsavorymeals.com/wp-content/uploads/2018/06/No-Bake-Chocolate-Pie-4.jpg" alt="Choco pie">
+            <h3>Choco pie</h3>
+            <p>$5.00</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/bf/6b/9f/bf6b9fe2c0a9238a12d8ddb8053d5d8f.jpg" alt="Choco pie">
+            <h3>Choco chips</h3>
+            <p>$5.00</p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        Cozy Cafe is your neighborhood coffee spot where every cup is brewed
+        with passion and every customer feels at home.
+    </p>
+</section>
+
+<!-- Order Form -->
+<section id="order" class="order">
+    <h2>Place Your Order</h2>
+    <form onsubmit="placeOrder(event)">
+        <input type="text" placeholder="Your Name" required>
+        <select required>
+            <option value="">Select Item</option>
+            <option>Cappuccino</option>
+            <option>Latte</option>
+            <option>Chocolate Cake</option>
+            <option>hot Chocolate</option>
+            <option>Choco pie</option>
+            <option>choco chips</option>
+        </select>
+        <input type="number" placeholder="Quantity" min="1" required>
+        <button type="submit">Order Now</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Cozy Cafe</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
